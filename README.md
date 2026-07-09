@@ -283,11 +283,11 @@ Relevant parameters are:
 
 ```python
 PARALLEL_PROCESSING = True
-MAX_WORKERS = 3
-MAX_CONCURRENT_API_CALLS = 3
+MAX_WORKERS = 6
+MAX_CONCURRENT_API_CALLS = 8
 ```
 
-The recommended starting point is `MAX_WORKERS = 2` or `MAX_WORKERS = 3`, depending on API rate limits and document size.
+The recommended starting point is `MAX_WORKERS = 6` or `MAX_WORKERS = 8`, depending on API rate limits and document size.
 
 ---
 
@@ -480,90 +480,7 @@ Nevertheless, because the pipeline relies on large language models, exact output
 
 ---
 
-## Data and Copyright Notice
-
-The `data/papers/` directory may contain copyrighted academic articles. Before pushing PDFs to a public repository, ensure that redistribution is legally permitted.
-
-Recommended alternatives include:
-
-- keeping the GitHub repository private;
-- excluding PDFs from the repository;
-- sharing only bibliographic metadata and DOIs;
-- storing PDFs in an institutional repository with appropriate access restrictions;
-- using Git LFS only when redistribution is allowed.
-
-If the repository is public, it is generally safer to avoid committing copyrighted PDFs.
-
----
-
-## Git LFS
-
-Large binary files such as PDFs and Excel files can be tracked with Git LFS.
-
-Install Git LFS:
-
-```bash
-brew install git-lfs
-git lfs install
-```
-
-Track PDFs and Excel files:
-
-```bash
-git lfs track "*.pdf"
-git lfs track "*.xlsx"
-```
-
-Then commit the generated `.gitattributes` file:
-
-```bash
-git add .gitattributes
-git commit -m "Track large binary files with Git LFS"
-```
-
----
-
-## Recommended `.gitignore`
-
-A recommended `.gitignore` is:
-
-```gitignore
-# Python
-__pycache__/
-*.pyc
-.venv/
-venv/
-.env
-.env.*
-
-# OpenAI / API keys / local secrets
-openai_file_cache.json
-*.key
-*.pem
-
-# Logs and debug files
-logs/
-*_fatal_error.json
-debug_raw_response_*.json
-*_validation_error.json
-*.corrupt_*
-*.tmp_*
-
-# macOS
-.DS_Store
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Temporary Excel files
-~$*.xlsx
-```
-
----
-
 ## Suggested Citation
-
-If this pipeline is used in academic work, it may be cited as a research software artifact:
 
 ```text
 Dib, M. (2026). AI-Assisted Literature Review Pipeline for Carbon and Fuel Tax Acceptability. GitHub repository.
