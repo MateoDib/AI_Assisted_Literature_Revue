@@ -1,0 +1,54 @@
+{
+  "paper_id": "douenne_et_fabre_-_2020_-_french_attitudes_on_climate_change_carbon_taxation_and_other_cli",
+  "title": "French Attitudes on Climate Change, Carbon Taxation and other Climate Policies",
+  "authors": "Thomas Douenne; Adrien Fabre",
+  "doi": null,
+  "publication_year": 2020,
+  "paper_type": "empirical_survey",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "exact_term_used_in_paper": "Tax & Dividend",
+      "context": "Approval of a proposed increase in the French carbon tax (+50€/tCO2) with the added revenue redistributed lump-sum to all adults.",
+      "page_or_section": "Section 4.1 (Figure 8)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Only 10% approve; 70% reject (+50€/tCO2 with lump-sum redistribution)."
+    },
+    {
+      "tax_instrument_type": "diesel_tax",
+      "exact_term_used_in_paper": "diesel tax",
+      "context": "Support for raising diesel taxation to catch up with gasoline levels.",
+      "page_or_section": "Section 5.2.3 (Figure 19)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "59% oppose; among diesel-vehicle owners 80% oppose."
+    },
+    {
+      "tax_instrument_type": "fuel_tax",
+      "exact_term_used_in_paper": "tax on kerosene (aviation)",
+      "context": "Support for a Pigouvian tax on kerosene used for aviation.",
+      "page_or_section": "Section 5.2.1 (Figure 18)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "70% support; 41% say yes, completely."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "regulation_or_standard",
+      "exact_term_used_in_paper": "stricter standards",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Regulatory standards/prohibitions, not a carbon/fuel excise or tax instrument.",
+      "page_or_section": "Section 5.2.2 (Figure 18)"
+    },
+    {
+      "excluded_policy_type": "ets_or_cap_and_trade",
+      "exact_term_used_in_paper": "EU-ETS",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Cap-and-trade emissions trading scheme, not a carbon or fuel excise/tax.",
+      "page_or_section": "Section 5.2.1 (footnote 5)"
+    }
+  ],
+  "inclusion_reason": "Uses a representative French survey to analyze approval and determinants of a carbon-tax ‘Tax & Dividend’ and acceptability of fuel taxes (diesel, kerosene).",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

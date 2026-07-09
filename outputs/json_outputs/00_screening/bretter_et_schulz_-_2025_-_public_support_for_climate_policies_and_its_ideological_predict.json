@@ -1,0 +1,44 @@
+{
+  "paper_id": "bretter_et_schulz_-_2025_-_public_support_for_climate_policies_and_its_ideological_predict",
+  "title": "Public support for climate policies and its ideological predictors across countries of the Global North and Global South",
+  "authors": "Christian Bretter; Felix Schulz",
+  "doi": "10.1016/j.ecolecon.2025.108603",
+  "publication_year": 2025,
+  "paper_type": "empirical_survey",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax",
+      "exact_term_used_in_paper": "carbon border tax",
+      "context": "Example item in the study’s “taxes” policy-instrument composite: a carbon-border tax on imports based on carbon emissions.",
+      "page_or_section": "Section 3.2 (Procedure and measures)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "“Taxes” support analysed as a composite policy-support score across six countries."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "regulation_or_standard",
+      "exact_term_used_in_paper": "regulatory policy proposals",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Regulation is bans/standards (regulatory proposals), not a tax on carbon or fuels.",
+      "page_or_section": "Section 2.1; Section 4.1-4.2"
+    },
+    {
+      "excluded_policy_type": "subsidy_or_incentive",
+      "exact_term_used_in_paper": "subsidy proposals",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Subsidies provide financial support, not a carbon/fuel tax instrument.",
+      "page_or_section": "Section 2.1; Section 3.2; Section 4.1-4.2"
+    },
+    {
+      "excluded_policy_type": "other_non_tax_policy",
+      "exact_term_used_in_paper": "information-based policies",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Information campaigns/disclosure requirements are non-tax measures and do not impose carbon/fuel prices.",
+      "page_or_section": "Section 2.1; Section 3.2; Section 4.1-4.2"
+    }
+  ],
+  "inclusion_reason": "The paper measures respondents’ support for a “taxes” instrument that includes a “carbon border tax” (carbon-emissions–based taxation) and reports acceptability plus ideological predictors across six countries.",
+  "exclusion_reason": null,
+  "confidence": "medium"
+}

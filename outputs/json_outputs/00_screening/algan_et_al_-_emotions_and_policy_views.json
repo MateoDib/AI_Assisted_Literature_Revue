@@ -1,0 +1,52 @@
+{
+  "paper_id": "algan_et_al_-_emotions_and_policy_views",
+  "title": "Emotions and Policy Views",
+  "authors": "Yann Algan; Eva Davoine; Thomas Renault; Stefanie Stantcheva",
+  "doi": null,
+  "publication_year": 2026,
+  "paper_type": "survey_experiment",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "exact_term_used_in_paper": "carbon tax with cash transfers",
+      "context": "Survey B describes a carbon tax with cash transfers, raising gasoline price by 40 cents/gal and rebating $600 per adult; asks support and analyzes treatment effects.",
+      "page_or_section": "Appendix A.13.6.2 Policy Tax; Section 5.3",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Support measured on Likert scale; used in climate policy views index."
+    },
+    {
+      "tax_instrument_type": "progressive_carbon_tax",
+      "exact_term_used_in_paper": "progressive carbon tax",
+      "context": "Question asks support for progressive carbon tax levied only on high-income people, raising gasoline price by 40 cents per gallon.",
+      "page_or_section": "Appendix A.13.6.2 Policy Tax; Section 5.3",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Item used in redistributive climate policy analyses."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "other_non_tax_policy",
+      "exact_term_used_in_paper": "Paris Climate Agreement",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "International climate treaty on emissions targets, not a domestic tax instrument.",
+      "page_or_section": "Appendix A.13.6.5 Harris vs Trump Policy Proposals"
+    },
+    {
+      "excluded_policy_type": "subsidy_or_incentive",
+      "exact_term_used_in_paper": "tax incentives for renewable energy projects / subsidies for electric vehicles",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Spending or tax-expenditure subsidies supporting clean technologies, not fuel or carbon taxes.",
+      "page_or_section": "Abstract; Appendix A.13.6.5"
+    },
+    {
+      "excluded_policy_type": "regulation_or_standard",
+      "exact_term_used_in_paper": "ban on combustion-engine cars",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Regulatory prohibition of certain vehicles, not a price-based fuel or carbon tax.",
+      "page_or_section": "Appendix A.13.6.1 Policy Ban; Section 5.3"
+    }
+  ],
+  "inclusion_reason": "Survey B experimentally studies how emotions affect support for a carbon tax with cash transfers and a progressive carbon tax, providing direct evidence on carbon-tax acceptability.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

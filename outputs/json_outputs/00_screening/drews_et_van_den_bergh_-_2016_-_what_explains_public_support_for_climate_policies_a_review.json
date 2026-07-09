@@ -1,0 +1,48 @@
+{
+  "paper_id": "drews_et_van_den_bergh_-_2016_-_what_explains_public_support_for_climate_policies_a_review",
+  "title": "What explains public support for climate policies? A review of empirical and experimental studies",
+  "authors": "Stefan Drews & Jeroen C.J.M. van den Bergh",
+  "doi": "10.1080/14693062.2015.1058240",
+  "publication_year": 2016,
+  "paper_type": "narrative_review",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax",
+      "exact_term_used_in_paper": "carbon tax",
+      "context": "Section 3.5 notes UK carbon-tax acceptability varies with earmarking vs general budget; US polls report 43–45% support for a revenue-neutral carbon tax.",
+      "page_or_section": "3.5. Perceived use of revenues",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Revenue earmarking/recycling affects acceptability."
+    },
+    {
+      "tax_instrument_type": "gasoline_tax",
+      "exact_term_used_in_paper": "gasoline taxation",
+      "context": "Section 3.5 summarizes Canadian choice-study where revenue recycling (VAT/income-tax rebates) increased acceptability of higher gasoline taxation.",
+      "page_or_section": "3.5. Perceived use of revenues",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": null
+    },
+    {
+      "tax_instrument_type": "fuel_tax",
+      "exact_term_used_in_paper": "fuel tax",
+      "context": "Section 3.2 reports higher support for a fuel tax when people believe it reduces driving and benefits climate change.",
+      "page_or_section": "3.2. Perceived benefits and effectiveness of policy",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": null
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "ets_or_cap_and_trade",
+      "exact_term_used_in_paper": "cap-and-trade programme",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Emissions trading/regulatory instrument for allowances; not a carbon/fuel tax or excise-like rate on fuel use.",
+      "page_or_section": "3.2. Perceived benefits/effectiveness (ethical concerns; cap-and-trade)"
+    }
+  ],
+  "inclusion_reason": "Narrative review synthesizes empirical/experimental evidence on public support and acceptability for carbon and fuel taxes (e.g., CO2, carbon tax, gasoline and fuel taxes), including effects of perceived costs, fairness, and revenue recycling.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

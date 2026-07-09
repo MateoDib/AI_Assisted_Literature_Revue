@@ -1,0 +1,46 @@
+{
+  "paper_id": "carattini_et_al_-_2024_-_policy_evaluation_and_the_causal_analysis_of_public_support",
+  "title": "Policy evaluation and the causal analysis of public support",
+  "authors": "Stefano Carattini; Robert Dur; John List",
+  "doi": "10.1126/science.adp7497",
+  "publication_year": 2024,
+  "paper_type": "commentary_or_policy_perspective",
+  "screening_decision": "exclude_no_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": false,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax",
+      "exact_term_used_in_paper": "carbon tax",
+      "context": "The carbon tax British Columbia introduced in 2008 “became more popular over time” (cited evidence).",
+      "page_or_section": "p. 2, THE RATIONALE",
+      "is_direct_acceptability_or_support_analysis": false,
+      "notes": "No author-level causal/acceptability estimation; summarizes prior study."
+    },
+    {
+      "tax_instrument_type": "carbon_tax",
+      "exact_term_used_in_paper": "federal carbon tax",
+      "context": "BC respondents saw their carbon tax more favorably after a federal carbon tax in 2019 expanded coverage.",
+      "page_or_section": "p. 3, EMPIRICAL FRAMEWORK",
+      "is_direct_acceptability_or_support_analysis": false,
+      "notes": "Discusses possible spillovers; relies on external evidence."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "other_non_tax_policy",
+      "exact_term_used_in_paper": "congestion charges",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Road-traffic pricing; not a tax based on carbon or fossil-fuel use.",
+      "page_or_section": "p. 1"
+    },
+    {
+      "excluded_policy_type": "environmental_policy_general",
+      "exact_term_used_in_paper": "pricing garbage by the bag",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Waste-disposal fee; targets garbage recycling incentives rather than carbon/fuel taxation.",
+      "page_or_section": "p. 2"
+    }
+  ],
+  "inclusion_reason": "The paper focuses on designing causal studies of public support, but it does not provide a direct acceptability/support/preferences analysis for carbon or fuel taxes.",
+  "exclusion_reason": "Carbon-tax references are descriptive/cited to prior work; the paper contains no original empirical or causal acceptability analysis for carbon/fuel-tax policies.",
+  "confidence": "high"
+}

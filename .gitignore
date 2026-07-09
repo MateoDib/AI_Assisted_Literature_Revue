@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+
+# OpenAI / API keys / local secrets
+openai_file_cache.json
+*.key
+*.pem
+
+# Logs and debug files
+logs/
+outputs/json_outputs/logs/
+*_fatal_error.json
+debug_raw_response_*.json
+*_validation_error.json
+*.corrupt_*
+*.tmp_*
+
+# macOS
+.DS_Store
+
+# Jupyter / local cache
+.ipynb_checkpoints/
+
+# Optional: ignore temporary Excel files
+~$*.xlsx

@@ -1,0 +1,29 @@
+{
+  "paper_id": "goldberg_et_al_-_2021_-_identifying_the_most_important_predictors_of_support_for_climate_p",
+  "title": "Identifying the most important predictors of support for climate policy in the United States",
+  "authors": "Matthew H. Goldberg, Abel Gustafson, Matthew T. Ballew, Seth A. Rosenthal, Anthony Leiserowitz",
+  "doi": "10.1017/bpp.2020.39",
+  "publication_year": 2020,
+  "paper_type": "empirical_survey",
+  "screening_decision": "exclude_no_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": false,
+  "contains_tax_acceptability_or_support_analysis": false,
+  "tax_mentions": [],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "regulation_or_standard",
+      "exact_term_used_in_paper": "Regulate carbon dioxide (the primary greenhouse gas) as a pollutant",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "This is an emissions regulation, not a tax instrument.",
+      "page_or_section": "Policy support measure, page 8"
+    },
+    {
+      "excluded_policy_type": "regulation_or_standard",
+      "exact_term_used_in_paper": "Require electric utilities to produce at least 20% of their electricity from wind, solar, or other renewable energy sources",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "This is a renewable electricity standard, not a carbon or fuel tax.",
+      "page_or_section": "Policy support measure, page 8"
+    }
+  ],
+  "inclusion_reason": "The paper studies climate policy support generally, but it does not analyze any carbon tax or fuel tax instrument.",
+  "exclusion_reason": "No direct carbon tax, CO2 tax, fuel tax, gasoline tax, or equivalent fuel excise policy is analyzed.",
+  "confidence": "high"
+}

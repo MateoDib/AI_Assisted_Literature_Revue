@@ -1,0 +1,23 @@
+{
+  "paper_id": "mccright_et_dunlap_-_the_politicization_of_climate_change_and_polarization_in_the_american",
+  "title": "The Politicization of Climate Change and Polarization in the American Public’s Views of Global Warming, 2001–2010",
+  "authors": "Aaron M. McCright; Riley E. Dunlap",
+  "doi": null,
+  "publication_year": 2011,
+  "paper_type": "observational_empirical_analysis",
+  "screening_decision": "exclude_no_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": false,
+  "contains_tax_acceptability_or_support_analysis": false,
+  "tax_mentions": [],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "other_non_tax_policy",
+      "exact_term_used_in_paper": "Kyoto Protocol",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "International emissions agreement, not a domestic carbon or fuel tax.",
+      "page_or_section": "pp. 2, 5, 25"
+    }
+  ],
+  "inclusion_reason": "Empirical Gallup survey analysis of climate-change beliefs and concern, but it does not measure acceptability of any carbon or fuel tax.",
+  "exclusion_reason": "No carbon tax, CO2 tax, fuel tax, gasoline/diesel tax, or equivalent tax policy is analyzed as a public preference or support item.",
+  "confidence": "high"
+}

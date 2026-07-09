@@ -1,0 +1,88 @@
+{
+  "paper_id": "mohammadzadeh_valencia_et_al_-_2024_-_public_support_for_carbon_pricing_policies_and_reven",
+  "overall_verdict": "minor_revision",
+  "should_remain_in_corpus": true,
+  "reason_for_exclusion_if_any": null,
+  "metadata_checks": {
+    "title_correct": true,
+    "doi_correct": true,
+    "year_correct": true,
+    "paper_type_correct": true,
+    "tax_scope_correct": true,
+    "comments": "Title, DOI, year, and paper type match. Tax scope is appropriate for direct carbon/fuel-tax support, with subsidy reform used only as comparative context."
+  },
+  "determinant_checks": [
+    {
+      "raw_name_in_paper": "green spending",
+      "status": "supported",
+      "comment": "Matches the paper’s main result and directly concerns carbon-pricing support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "targeted cash transfers",
+      "status": "direction_error",
+      "comment": "Paper reports a positive coefficient; extraction should encode '+' rather than n.a., even though p>0.10.",
+      "suggested_correction": "+"
+    },
+    {
+      "raw_name_in_paper": "uniform cash transfers",
+      "status": "direction_error",
+      "comment": "Paper reports a negative coefficient; extraction should encode '-' rather than n.a., even though p>0.10.",
+      "suggested_correction": "-"
+    },
+    {
+      "raw_name_in_paper": "tax cuts – income, labour, and consumption",
+      "status": "direction_error",
+      "comment": "Paper reports a positive coefficient; extraction should encode '+' rather than n.a., even though p>0.10.",
+      "suggested_correction": "+"
+    },
+    {
+      "raw_name_in_paper": "corporate tax cuts",
+      "status": "direction_error",
+      "comment": "Paper reports a negative coefficient; extraction should encode '-' rather than n.a., even though p>0.10.",
+      "suggested_correction": "-"
+    },
+    {
+      "raw_name_in_paper": "Carbon and environmental tax",
+      "status": "direction_error",
+      "comment": "Policy-type moderator is directly tax-related, but extraction leaves direction n.a.; reported coefficient is positive.",
+      "suggested_correction": "+"
+    },
+    {
+      "raw_name_in_paper": "Carbon pricing policy in place",
+      "status": "direction_error",
+      "comment": "Context moderator is directly tax-related, but extraction leaves direction n.a.; reported coefficient is positive.",
+      "suggested_correction": "+"
+    },
+    {
+      "raw_name_in_paper": "Africa",
+      "status": "supported",
+      "comment": "Regional fixed effect is directly reported and clearly positive in Table 1.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Asia and Pacific",
+      "status": "supported",
+      "comment": "Regional fixed effect is directly reported and clearly positive in Table 1.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Latin America and Caribbean",
+      "status": "supported",
+      "comment": "Regional fixed effect is directly reported and clearly positive in Table 1.",
+      "suggested_correction": null
+    }
+  ],
+  "missing_tax_determinants": [
+    {
+      "raw_name_in_paper": "Europe and West Asia",
+      "suggested_direction": "+",
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "outcome_variable": "Change in public support",
+      "evidence_quote": "Europe and West Asia (baseline: North America) 0.26 (0.69)",
+      "page_or_section": "Table 1",
+      "comment": "Reported regional moderator is omitted from extraction; coefficient is positive but not significant."
+    }
+  ],
+  "final_recommendation_summary": "Keep the paper in the corpus. The extraction is substantively on target, but several reported coefficients are left as n.a. despite clear positive/negative signs, and Europe and West Asia is missing."
+}

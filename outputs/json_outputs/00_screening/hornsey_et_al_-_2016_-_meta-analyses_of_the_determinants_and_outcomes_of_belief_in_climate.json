@@ -1,0 +1,32 @@
+{
+  "paper_id": "hornsey_et_al_-_2016_-_meta-analyses_of_the_determinants_and_outcomes_of_belief_in_climate",
+  "title": "Meta-analyses of the determinants and outcomes of belief in climate change",
+  "authors": "Matthew J. Hornsey, Emily A. Harris, Paul G. Bain, Kelly S. Fielding",
+  "doi": "10.1038/NCLIMATE2943",
+  "publication_year": 2016,
+  "paper_type": "meta_analysis",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "unclear_tax_instrument",
+      "exact_term_used_in_paper": "support for carbon tax/cap and trade",
+      "context": "Outcome variable synthesized across 31 studies on climate-change belief and policy support.",
+      "page_or_section": "p.9-10, Table 1",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Combined with cap-and-trade; not tax-only estimate."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "ets_or_cap_and_trade",
+      "exact_term_used_in_paper": "cap and trade",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Non-tax ETS component pooled with carbon tax; not separately estimated.",
+      "page_or_section": "p.9-10, Table 1"
+    }
+  ],
+  "inclusion_reason": "Contains a direct synthesized outcome on support for carbon tax/cap and trade, which is relevant to carbon-tax acceptability despite pooling with ETS.",
+  "exclusion_reason": null,
+  "confidence": "medium"
+}

@@ -1,0 +1,25 @@
+{
+  "paper_id": "carson_et_al_-_2025_-_the_publics_views_on_climate_policies_in_seven_large_global_south_co",
+  "title": "The public’s views on climate policies in seven large global south countries",
+  "authors": "Richard T. Carson; Jiajun Lu; Emily A. Khossravi; Gunnar Köhlin; Erik Sterner; Thomas Sterner; Dale Whittington",
+  "doi": "10.1038/s41558-025-02389-9",
+  "publication_year": 2025,
+  "paper_type": "empirical_survey",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "exact_term_used_in_paper": "carbon tax revenue / revenues from carbon taxes",
+      "context": "Best–worst ranking of how to use revenues from a carbon tax (health/education, subsidized solar, clean R&D, roads, deficit reduction, rebates).",
+      "page_or_section": "Table 6; “Attitudes towards climate policies” (carbon tax revenue uses task)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Highest: education/health, subsidized solar, clean R&D; lowest: equal shares and deficit reduction."
+    }
+  ],
+  "excluded_policy_mentions": [],
+  "inclusion_reason": "Survey respondents in seven countries rank acceptability of carbon tax revenue earmarking (Table 6), including health/education, solar/R&D support, rebates, and deficit reduction.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

@@ -1,0 +1,46 @@
+{
+  "paper_id": "barrez_-_2024_-_public_acceptability_of_carbon_pricing_unravelling_the_impact_of_revenue_r",
+  "title": "Public acceptability of carbon pricing: Unravelling the impact of revenue recycling",
+  "authors": "Jeroen Barrez",
+  "doi": null,
+  "publication_year": 2024,
+  "paper_type": "systematic_review",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "exact_term_used_in_paper": "carbon tax; carbon taxation",
+      "context": "Systematic review of public attitudes toward carbon taxation and how alternative revenue recycling options shape acceptability, support and willingness to pay.",
+      "page_or_section": "Abstract; Introduction; Results",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Systematic review; synthesizes many surveys/experiments."
+    },
+    {
+      "tax_instrument_type": "fuel_tax",
+      "exact_term_used_in_paper": "fuel taxes; gasoline taxation",
+      "context": "Defines fuel and gasoline taxes as implicit carbon pricing and includes studies on public support for such tax increases and revenue use.",
+      "page_or_section": "Method, pp.4-5; typology section",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Fuel/gas taxes treated as carbon pricing instruments."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "ets_or_cap_and_trade",
+      "exact_term_used_in_paper": "emission trading",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Quantity-based emissions trading scheme (cap-and-trade), not a tax on fuels or carbon.",
+      "page_or_section": "Results, p.5"
+    },
+    {
+      "excluded_policy_type": "carbon_pricing_general_without_tax_specific_analysis",
+      "exact_term_used_in_paper": "carbon pricing",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Umbrella term covering both carbon taxes and ETS; not itself a specific tax instrument.",
+      "page_or_section": "Abstract; Introduction"
+    }
+  ],
+  "inclusion_reason": "Systematic PRISMA review synthesizing determinants of public acceptability, support and WTP for carbon taxation, fuel and gasoline taxes, especially design of revenue recycling, across 48 empirical studies.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

@@ -1,0 +1,44 @@
+{
+  "paper_id": "andre_et_al_-_2024_-_globally_representative_evidence_on_the_actual_and_perceived_support",
+  "title": "Globally representative evidence on the actual and perceived support for climate action",
+  "authors": "Peter Andre, Teodora Boneva, Felix Chopra, Armin Falk",
+  "doi": "10.1038/s41558-024-01925-3",
+  "publication_year": 2024,
+  "paper_type": "empirical_survey",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax",
+      "exact_term_used_in_paper": "a carbon tax on fossil fuels",
+      "context": "Validation sample: support for specific climate policies, including a carbon tax on fossil fuels, measured on Likert scale and correlated with general demand for more political action.",
+      "page_or_section": "Main text p.254; Methods – Validation; Supplementary Table 3",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "US-only validation data, not global sample."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "willingness_to_contribute_or_donate_without_tax",
+      "exact_term_used_in_paper": "willing to contribute 1% of their household income every month to fight global warming",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Voluntary contribution framed as donation to fight warming, not a compulsory tax.",
+      "page_or_section": "Main text pp.253–255; Methods – Survey items (Willingness to contribute)"
+    },
+    {
+      "excluded_policy_type": "general_climate_policy_support",
+      "exact_term_used_in_paper": "national government should do more to fight global warming",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Measures general demand for more climate action without specifying instruments or taxes.",
+      "page_or_section": "Main text pp.254–255; Methods – Survey items (Demand for political action)"
+    },
+    {
+      "excluded_policy_type": "pro_environmental_behavior_only",
+      "exact_term_used_in_paper": "people in their country should try to fight global warming",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Injunctive norm about individual efforts against warming, not a policy or tax measure.",
+      "page_or_section": "Main text p.254; Methods – Survey items (Social norms)"
+    }
+  ],
+  "inclusion_reason": "Includes validation analysis using a US survey where support for specific climate policies, including a carbon tax on fossil fuels, is measured and correlated with general climate-action demand.",
+  "exclusion_reason": null,
+  "confidence": "medium"
+}

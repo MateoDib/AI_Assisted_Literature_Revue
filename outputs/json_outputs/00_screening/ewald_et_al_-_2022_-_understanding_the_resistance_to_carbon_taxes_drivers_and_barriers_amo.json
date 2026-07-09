@@ -1,0 +1,46 @@
+{
+  "paper_id": "ewald_et_al_-_2022_-_understanding_the_resistance_to_carbon_taxes_drivers_and_barriers_amo",
+  "title": "Understanding the resistance to carbon taxes: Drivers and barriers among the general public and fuel-tax protesters",
+  "authors": "Jens Ewald, Thomas Sterner, Erik Sterner",
+  "doi": "10.1016/j.reseneeco.2022.101331",
+  "publication_year": 2022,
+  "paper_type": "empirical_survey",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax",
+      "exact_term_used_in_paper": "carbon tax",
+      "context": "Surveyed Swedes rate carbon-tax effectiveness, rank carbon taxes, and judge fairness and revenue recycling/earmarking options.",
+      "page_or_section": "Abstract; Sections 4.1.1–4.2 (Tables 2–7)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Direct acceptability analysis of carbon taxes, including fairness and revenue-use preferences."
+    },
+    {
+      "tax_instrument_type": "gasoline_tax",
+      "exact_term_used_in_paper": "petrol taxes",
+      "context": "Protest sample consists of opponents to petrol/fuel taxes; compared with general public on attitudes toward carbon tax.",
+      "page_or_section": "Section 3.1 (Petrol Protest 2.0; petition against petrol taxes)",
+      "is_direct_acceptability_or_support_analysis": false,
+      "notes": "Used to define protest group; outcomes focus on carbon-tax attitudes."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "ets_or_cap_and_trade",
+      "exact_term_used_in_paper": "EU ETS",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "EU ETS is a permit trading scheme, not a carbon/fuel excise tax.",
+      "page_or_section": "Section 4.1.1 (discussion of emissions trading/ETS) / note 18"
+    },
+    {
+      "excluded_policy_type": "subsidy_or_incentive",
+      "exact_term_used_in_paper": "subsidies renewables / subsidies electric cars",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Subsidies are incentives, not carbon or fuel tax instruments.",
+      "page_or_section": "Section 4.1.1 (Fig. 1)"
+    }
+  ],
+  "inclusion_reason": "Uses nationwide and protest surveys in Sweden to directly analyze acceptability of carbon taxes (effectiveness, ranking, fairness, revenue use) and compares determinants between general public and fuel-tax protesters.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

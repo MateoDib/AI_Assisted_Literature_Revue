@@ -1,0 +1,60 @@
+{
+  "paper_id": "ewald_et_al_-_2022_-_understanding_the_resistance_to_carbon_taxes_drivers_and_barriers_amo",
+  "overall_verdict": "pass",
+  "should_remain_in_corpus": true,
+  "reason_for_exclusion_if_any": null,
+  "metadata_checks": {
+    "title_correct": true,
+    "doi_correct": true,
+    "year_correct": true,
+    "paper_type_correct": true,
+    "tax_scope_correct": true,
+    "comments": "Title, DOI, year, paper type, and Sweden carbon-tax/fuel-tax scope all match the paper."
+  },
+  "determinant_checks": [
+    {
+      "raw_name_in_paper": "Protester (ref. National sample)",
+      "status": "supported",
+      "comment": "Key comparison variable; protest membership sharply lowers carbon-tax support across outcomes.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Education",
+      "status": "control_not_substantive",
+      "comment": "Demographic control; higher education is associated with more carbon-tax support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Income",
+      "status": "control_not_substantive",
+      "comment": "Socioeconomic control; income effects are mostly null for carbon-tax attitudes.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Residence",
+      "status": "control_not_substantive",
+      "comment": "Geographic control; rural residence predicts lower support and stronger fairness concerns.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Trust in government",
+      "status": "supported",
+      "comment": "Central substantive mechanism; low trust strongly reduces carbon-tax support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Political orientation",
+      "status": "control_not_substantive",
+      "comment": "Political control; left-right orientation predicts carbon-tax acceptability.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Pigouvian principle",
+      "status": "supported",
+      "comment": "Key substantive mechanism; belief in incentive effects raises carbon-tax support.",
+      "suggested_correction": null
+    }
+  ],
+  "missing_tax_determinants": [],
+  "final_recommendation_summary": "Keep the paper. It is a direct carbon-tax acceptability study, and the extraction is tax-specific; the only non-core items are standard demographic/political controls."
+}

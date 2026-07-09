@@ -1,0 +1,41 @@
+{
+  "paper_id": "bornstein_et_lanz_-_2008_-_voting_on_the_environment_price_or_ideology_evidence_from_swiss",
+  "title": "Voting on the environment: Price or ideology? Evidence from Swiss referendums",
+  "authors": "Nicholas Bornstein; Bruno Lanz",
+  "doi": "10.1016/j.ecolecon.2007.12.026",
+  "publication_year": 2008,
+  "paper_type": "referendum_or_voting_analysis",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "energy_tax_explicitly_carbon_or_fuel_based",
+      "exact_term_used_in_paper": "solar initiative",
+      "context": "Solar initiative proposed a 25-year tax on fossil and nuclear energy (CHF 0.001–0.005 per kWh) to fund solar energy and energy efficiency; referendum votes analyzed.",
+      "page_or_section": "Section 2, “The three tax proposals” (Sept 2000 vote)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Tax on fossil and nuclear energy; revenues earmarked for solar promotion and energy-efficiency solutions."
+    },
+    {
+      "tax_instrument_type": "energy_tax_explicitly_carbon_or_fuel_based",
+      "exact_term_used_in_paper": "energy conservation package",
+      "context": "Energy conservation package proposed CHF 0.003 per kWh tax on non-renewable energy for 10–15 years; revenues split across renewables, efficient solutions, hydro maintenance, and programs; votes analyzed.",
+      "page_or_section": "Section 2, “The three tax proposals” (Sept 2000 vote)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Non-renewable energy tax for 10–15 years; revenues allocated to renewables, efficiency, hydro maintenance, programs."
+    },
+    {
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "exact_term_used_in_paper": "green tax reform",
+      "context": "Green tax reform proposed increasing tax up to CHF 0.02 per kWh on non-renewable energy; expected revenues used to reduce social security contributions for employers and employees; referendum support analyzed.",
+      "page_or_section": "Section 2, “The three tax proposals” (Sept 2000 vote)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Revenue recycled by lowering employers’ and employees’ social security contributions."
+    }
+  ],
+  "excluded_policy_mentions": [],
+  "inclusion_reason": "Empirically studies Swiss referendum acceptance on three proposals imposing taxes on fossil/non-renewable energy (solar initiative, energy conservation package, green tax reform), and models determinants of municipal approval rates.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

@@ -1,0 +1,30 @@
+{
+  "paper_id": "savin_-_opinions_of_eu_citizens_about_climate_policy_in_their_own_words",
+  "overall_verdict": "pass",
+  "should_remain_in_corpus": true,
+  "reason_for_exclusion_if_any": null,
+  "metadata_checks": {
+    "title_correct": true,
+    "doi_correct": true,
+    "year_correct": true,
+    "paper_type_correct": true,
+    "tax_scope_correct": true,
+    "comments": "Title, paper type, and tax scope match the supplied record. No DOI or publication year are stated in the provided materials."
+  },
+  "determinant_checks": [
+    {
+      "raw_name_in_paper": "Gender (female)",
+      "status": "supported",
+      "comment": "Direct carbon-tax topic correlate: women are less likely than men to mention Topic 11 carbon taxation as preferred policy.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Perceived knowledge of climate policy",
+      "status": "supported",
+      "comment": "Direct carbon-tax topic correlate: higher self-assessed knowledge is associated with lower mention of Topic 11 carbon taxation.",
+      "suggested_correction": null
+    }
+  ],
+  "missing_tax_determinants": [],
+  "final_recommendation_summary": "Keep. The extraction contains only direct carbon-tax correlates from Topic 11, and no additional supported carbon/fuel-tax determinants are evident."
+}

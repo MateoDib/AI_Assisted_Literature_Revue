@@ -1,0 +1,102 @@
+{
+  "paper_metadata": {
+    "paper_id": "bugden_-_2022_-_denial_and_distrust_explaining_the_partisan_climate_gap",
+    "title": "Denial and distrust: explaining the partisan climate gap",
+    "authors": "Dylan Bugden",
+    "doi": "10.1007/s10584-022-03321-2",
+    "publication_year": 2022,
+    "publication_date": "18 February 2022",
+    "journal_or_source": "Climatic Change",
+    "paper_type": "observational_empirical_analysis",
+    "geographic_scope": "United States",
+    "empirical_scope_or_sample": "Non-probability Prolific survey of self-identified Democrats/Republicans (n=1808), collected Mar 22–30, 2021.",
+    "tax_instruments_analyzed": [
+      "carbon_tax"
+    ],
+    "exact_tax_terms_used": [
+      "A carbon tax on energy companies and utilities that will raise the cost of using fossil fuels and incentivize use of renewable energy sources"
+    ],
+    "carbon_tax_relevance_summary": "Respondents indicated support/oppose for an explicit carbon tax; Kitagawa–Blinder–Oaxaca decompositions estimate how partisan gaps in carbon-tax support are explained by trust in science and climate-science denial (plus smaller roles for trust in government)."
+  },
+  "determinants": [
+    {
+      "raw_name_in_paper": "Trust (science)",
+      "standardized_candidate_label": "Trust in the scientific community",
+      "determinant_family": "trust_and_institutions",
+      "determinant_role": "substantive_mechanism",
+      "direction_on_tax_acceptability": "+",
+      "definition": "Trust in the scientific community on issues related to climate change (definitely/probably/not sure/probably not/definitely not).",
+      "mechanism": "Greater trust in scientific expertise increases perceived credibility and legitimacy of climate claims, making a carbon tax more acceptable.",
+      "evidence_type": "statistical_association",
+      "tax_instrument_type": "carbon_tax",
+      "exact_tax_policy_context": "A carbon tax on energy companies and utilities that will raise the cost of using fossil fuels and incentivize use of renewable energy sources.",
+      "outcome_variable": "Support for the carbon tax policy (support vs oppose/not sure).",
+      "acceptability_dimension": "support",
+      "is_directly_about_carbon_or_fuel_tax": true,
+      "is_exclusively_about_ets_or_non_tax_policy": false,
+      "evidence_quote": "Table 3 (Carbon tax): Trust (science) = −0.13***.",
+      "page_or_section": "Table 3 (Carbon tax column), p. 14",
+      "statistical_or_result_detail": "Carbon tax decomposition: trust(science) coefficient −0.13*** (total gap explained for carbon tax: 54.57%).",
+      "confidence": "high",
+      "include_in_main_table": "yes_secondary_result",
+      "exclusion_reason_if_not_main": null,
+      "notes": "Decomposition coefficients reflect the explained component of the partisan support gap (sign reported in table; higher trust corresponds to higher support among Democrats)."
+    },
+    {
+      "raw_name_in_paper": "Climate denial",
+      "standardized_candidate_label": "Climate-science denial / low acceptance of climate evidence",
+      "determinant_family": "climate_beliefs_risk_perception_and_concern",
+      "determinant_role": "substantive_mechanism",
+      "direction_on_tax_acceptability": "-",
+      "definition": "Beliefs about whether climate change is occurring, combining yes/no and certainty; operationalized as climate-science denial in the decomposition.",
+      "mechanism": "More denial reduces acceptance of climate risks and the need for mitigation, lowering support for carbon taxes aimed at reducing fossil-fuel use.",
+      "evidence_type": "statistical_association",
+      "tax_instrument_type": "carbon_tax",
+      "exact_tax_policy_context": "A carbon tax on energy companies and utilities that will raise the cost of using fossil fuels and incentivize use of renewable energy sources.",
+      "outcome_variable": "Support for the carbon tax policy (support vs oppose/not sure).",
+      "acceptability_dimension": "support",
+      "is_directly_about_carbon_or_fuel_tax": true,
+      "is_exclusively_about_ets_or_non_tax_policy": false,
+      "evidence_quote": "Table 3 (Carbon tax): Climate denial = −0.12***.",
+      "page_or_section": "Table 3 (Carbon tax column), p. 14",
+      "statistical_or_result_detail": "Carbon tax decomposition: climate denial coefficient −0.12*** (total gap explained for carbon tax: 54.57%).",
+      "confidence": "high",
+      "include_in_main_table": "yes_secondary_result",
+      "exclusion_reason_if_not_main": null,
+      "notes": "Denial is higher among Republicans and aligns with lower carbon-tax support; table sign reflects the reported decomposition orientation."
+    },
+    {
+      "raw_name_in_paper": "Trust (gov’t)",
+      "standardized_candidate_label": "Trust in government",
+      "determinant_family": "trust_and_institutions",
+      "determinant_role": "substantive_mechanism",
+      "direction_on_tax_acceptability": "+",
+      "definition": "Trust in government on issues related to climate change (definitely/probably/not sure/probably not/definitely not).",
+      "mechanism": "Higher trust in government increases confidence that climate policy will be implemented effectively and fairly, supporting carbon-tax acceptability.",
+      "evidence_type": "statistical_association",
+      "tax_instrument_type": "carbon_tax",
+      "exact_tax_policy_context": "A carbon tax on energy companies and utilities that will raise the cost of using fossil fuels and incentivize use of renewable energy sources.",
+      "outcome_variable": "Support for the carbon tax policy (support vs oppose/not sure).",
+      "acceptability_dimension": "support",
+      "is_directly_about_carbon_or_fuel_tax": true,
+      "is_exclusively_about_ets_or_non_tax_policy": false,
+      "evidence_quote": "Table 3 (Carbon tax): Trust (gov’t) = −0.01**.",
+      "page_or_section": "Table 3 (Carbon tax column), p. 14",
+      "statistical_or_result_detail": "Carbon tax decomposition: trust(gov’t) coefficient −0.01** (smaller contribution than trust in science and climate denial).",
+      "confidence": "medium",
+      "include_in_main_table": "yes_secondary_result",
+      "exclusion_reason_if_not_main": null,
+      "notes": "Magnitude is small; sign reflects decomposition table orientation, while substantive direction is toward higher support with greater trust."
+    }
+  ],
+  "exclusions_or_uncertainties": [
+    {
+      "issue": "Affective polarization",
+      "reason": "For the carbon tax column in Table 3, the affective polarization coefficient is reported as 0.00 (no significance), so no clear acceptability direction was extracted."
+    },
+    {
+      "issue": "Demographic controls (age, race, income, education)",
+      "reason": "Authors note these variables are excluded from Table 3 for interpretation and provide only general statements about minor explanatory power on some policies without identifying the carbon-tax column specifically."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "paper_id": "thalmann_-_2004_-_the_public_acceptance_of_green_taxes_2_million_voters_express_their_opin",
+  "title": "The public acceptance of green taxes: 2 million voters express their opinion",
+  "authors": "Philippe Thalmann",
+  "doi": null,
+  "publication_year": 2004,
+  "paper_type": "referendum_or_voting_analysis",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "energy_tax_explicitly_carbon_or_fuel_based",
+      "exact_term_used_in_paper": "new tax on non-renewable energy",
+      "context": "Swiss referendum on three proposals for taxes on fossil energy/non-renewable fuels.",
+      "page_or_section": "p. 179-185, Introduction and Section 3",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Main policy object; analyzed via referendum votes."
+    },
+    {
+      "tax_instrument_type": "fossil_fuel_tax",
+      "exact_term_used_in_paper": "taxes on fossil energy",
+      "context": "Ballot proposals taxed fossil energy at the border on energy content.",
+      "page_or_section": "p. 179-185, Abstract and Section 3.1",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Direct public approval/rejection analysis."
+    },
+    {
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "exact_term_used_in_paper": "green tax reform",
+      "context": "Proposal returned revenues through lower social security contributions, and voters' support was modeled.",
+      "page_or_section": "p. 186-188, Table 1 and Figure 1",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Revenue recycling is central to the acceptability analysis."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "subsidy_or_incentive",
+      "exact_term_used_in_paper": "energy conservation package",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "This is a subsidy-using counter-proposal, not the tax instrument itself.",
+      "page_or_section": "p. 185-188, Table 1"
+    },
+    {
+      "excluded_policy_type": "subsidy_or_incentive",
+      "exact_term_used_in_paper": "solar initiative",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "This is a renewable-energy subsidy proposal, not a direct fuel/carbon tax.",
+      "page_or_section": "p. 185-188, Table 1"
+    },
+    {
+      "excluded_policy_type": "regulation_or_standard",
+      "exact_term_used_in_paper": "voluntary measures",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "These are non-tax climate measures mentioned only in passing.",
+      "page_or_section": "p. 186, Table 1 note"
+    }
+  ],
+  "inclusion_reason": "This paper directly analyzes referendum acceptance and vote choice for Swiss energy taxes on non-renewable/fossil fuels, including a green tax reform with revenue recycling.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

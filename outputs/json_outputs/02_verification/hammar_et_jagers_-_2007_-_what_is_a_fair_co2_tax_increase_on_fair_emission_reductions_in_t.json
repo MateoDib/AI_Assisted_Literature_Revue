@@ -1,0 +1,88 @@
+{
+  "paper_id": "hammar_et_jagers_-_2007_-_what_is_a_fair_co2_tax_increase_on_fair_emission_reductions_in_t",
+  "overall_verdict": "minor_revision",
+  "should_remain_in_corpus": true,
+  "reason_for_exclusion_if_any": null,
+  "metadata_checks": {
+    "title_correct": true,
+    "doi_correct": true,
+    "year_correct": true,
+    "paper_type_correct": true,
+    "tax_scope_correct": true,
+    "comments": null
+  },
+  "determinant_checks": [
+    {
+      "raw_name_in_paper": "Need principle considered fair",
+      "status": "supported",
+      "comment": "Correct tax-specific fairness determinant; positive association with support for a CO2 tax increase.",
+      "suggested_correction": "+"
+    },
+    {
+      "raw_name_in_paper": "Equality principle considered fair",
+      "status": "supported",
+      "comment": "Correct and strongly supported; positive predictor of CO2 tax support.",
+      "suggested_correction": "+"
+    },
+    {
+      "raw_name_in_paper": "Equity considered fair",
+      "status": "supported",
+      "comment": "Correct tax-specific fairness determinant; positive overall, though weaker among frequent car users.",
+      "suggested_correction": "+"
+    },
+    {
+      "raw_name_in_paper": "‘Fairness intensity’ high",
+      "status": "supported",
+      "comment": "Correct composite fairness measure; high fairness orientation increases tax support.",
+      "suggested_correction": "+"
+    },
+    {
+      "raw_name_in_paper": "Frequent car user",
+      "status": "supported",
+      "comment": "Direct tax-exposure determinant; daily car use lowers support for the CO2 tax increase.",
+      "suggested_correction": "-"
+    },
+    {
+      "raw_name_in_paper": "Age 18–29 years",
+      "status": "control_not_substantive",
+      "comment": "Relevant control covariate, but demographic rather than focal substantive determinant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Age 30–49 years",
+      "status": "control_not_substantive",
+      "comment": "Relevant control covariate, but demographic rather than focal substantive determinant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "University studies",
+      "status": "control_not_substantive",
+      "comment": "Relevant control covariate, but socioeconomic background rather than focal substantive determinant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Green Party sympathiser",
+      "status": "control_not_substantive",
+      "comment": "Relevant political control, but not a core substantive mechanism in the tax model.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Living in the countryside",
+      "status": "control_not_substantive",
+      "comment": "Relevant contextual control, but better treated as geography/exposure control.",
+      "suggested_correction": null
+    }
+  ],
+  "missing_tax_determinants": [
+    {
+      "raw_name_in_paper": "More info on effects of climate change",
+      "suggested_direction": "n.a.",
+      "tax_instrument_type": "co2_tax",
+      "outcome_variable": "Vote in favour of increased CO2 tax versus vote against",
+      "evidence_quote": "More info of effects of climate change −0.206",
+      "page_or_section": "Section 3.5, Table 3",
+      "comment": "Tax-related experimental treatment included in model 1; omitted from extracted determinants."
+    }
+  ],
+  "final_recommendation_summary": "The paper is correctly in the direct CO2-tax acceptability corpus. Main tax-specific fairness and car-use determinants are captured; demographic/political variables should be treated as controls, and one tax-related treatment variable from Table 3 is missing."
+}

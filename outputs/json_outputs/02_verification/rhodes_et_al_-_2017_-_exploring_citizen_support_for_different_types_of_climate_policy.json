@@ -1,0 +1,78 @@
+{
+  "paper_id": "rhodes_et_al_-_2017_-_exploring_citizen_support_for_different_types_of_climate_policy",
+  "overall_verdict": "pass",
+  "should_remain_in_corpus": true,
+  "reason_for_exclusion_if_any": null,
+  "metadata_checks": {
+    "title_correct": true,
+    "doi_correct": true,
+    "year_correct": true,
+    "paper_type_correct": true,
+    "tax_scope_correct": true,
+    "comments": null
+  },
+  "determinant_checks": [
+    {
+      "raw_name_in_paper": "Biospheric",
+      "status": "supported",
+      "comment": "Directly estimated for carbon-tax support; positive and statistically significant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Climate change concern",
+      "status": "supported",
+      "comment": "Direct carbon-tax determinant; positive and statistically significant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Government",
+      "status": "supported",
+      "comment": "Trust in government is directly associated with carbon-tax support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Fossil fuel industry",
+      "status": "supported",
+      "comment": "Directly associated with carbon-tax opposition; negative and significant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Scientists",
+      "status": "supported",
+      "comment": "Trust in university/IPCC scientists is directly linked to carbon-tax support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Rural (reference ‘urban’)",
+      "status": "supported",
+      "comment": "Directly linked to lower carbon-tax support; significant contextual exposure variable.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Commute mode 'other (public transit, bike, carpool)' (reference 'drive myself')",
+      "status": "supported",
+      "comment": "Directly associated with higher carbon-tax support; cost-exposure mechanism.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Gender 'female' (reference 'male')",
+      "status": "control_not_substantive",
+      "comment": "Directly associated, but best treated as a demographic control rather than core mechanism.",
+      "suggested_correction": "Label as demographic_control."
+    },
+    {
+      "raw_name_in_paper": "Alberta (reference ‘Ontario’)",
+      "status": "supported",
+      "comment": "Direct region effect on carbon-tax support; significant contextual determinant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Manitoba/Saskatchewan (reference ‘Ontario’)",
+      "status": "supported",
+      "comment": "Direct region effect on carbon-tax support; significant contextual determinant.",
+      "suggested_correction": null
+    }
+  ],
+  "missing_tax_determinants": [],
+  "final_recommendation_summary": "The extraction is tax-specific and retains the carbon-tax determinants. No missing carbon-tax determinants were identified; demographic and regional variables are acceptable as controls/context."
+}

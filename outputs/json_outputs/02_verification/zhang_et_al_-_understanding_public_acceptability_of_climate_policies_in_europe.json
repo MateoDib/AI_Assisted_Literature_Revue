@@ -1,0 +1,102 @@
+{
+  "paper_id": "zhang_et_al_-_understanding_public_acceptability_of_climate_policies_in_europe",
+  "overall_verdict": "minor_revision",
+  "should_remain_in_corpus": true,
+  "reason_for_exclusion_if_any": null,
+  "metadata_checks": {
+    "title_correct": true,
+    "doi_correct": true,
+    "year_correct": true,
+    "paper_type_correct": true,
+    "tax_scope_correct": true,
+    "comments": "Title matches the PDF. No DOI or publication year is visible in the provided preprint text. Paper type and direct carbon/fuel-tax scope are correct."
+  },
+  "determinant_checks": [
+    {
+      "raw_name_in_paper": "Climate change concern (index)",
+      "status": "supported",
+      "comment": "Direct carbon-tax predictor; positive and statistically significant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Political trust (index)",
+      "status": "supported",
+      "comment": "Direct carbon-tax predictor; positive and statistically significant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Egalitarian attitudes (index)",
+      "status": "supported",
+      "comment": "Direct carbon-tax predictor; positive and statistically significant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Education level",
+      "status": "control_not_substantive",
+      "comment": "Standard demographic control in the carbon-tax model; not a focal mechanism.",
+      "suggested_correction": "Label as demographic control."
+    },
+    {
+      "raw_name_in_paper": "Female",
+      "status": "control_not_substantive",
+      "comment": "Standard demographic control in the carbon-tax model; not a focal mechanism.",
+      "suggested_correction": "Label as demographic control."
+    },
+    {
+      "raw_name_in_paper": "Age",
+      "status": "control_not_substantive",
+      "comment": "Standard demographic control in the carbon-tax model; not a focal mechanism.",
+      "suggested_correction": "Label as demographic control."
+    },
+    {
+      "raw_name_in_paper": "Left-and-right preference",
+      "status": "control_not_substantive",
+      "comment": "Political control in the carbon-tax model; not a focal substantive mechanism.",
+      "suggested_correction": "Label as political control."
+    },
+    {
+      "raw_name_in_paper": "Income",
+      "status": "control_not_substantive",
+      "comment": "Standard socioeconomic control in the carbon-tax model; not a focal mechanism.",
+      "suggested_correction": "Label as socioeconomic control."
+    },
+    {
+      "raw_name_in_paper": "Perceived unemployment",
+      "status": "supported",
+      "comment": "Direct carbon-tax predictor; negative and statistically significant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Rural",
+      "status": "supported",
+      "comment": "Direct carbon-tax contextual predictor; negative and statistically significant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "PM2.5 annual mean level (2014-2015)",
+      "status": "supported",
+      "comment": "Direct carbon-tax contextual predictor; not significant but correctly tax-specific.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "GDP per capita (2015)",
+      "status": "supported",
+      "comment": "Direct carbon-tax contextual predictor; positive and statistically significant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Unemployment rate (2015)",
+      "status": "control_not_substantive",
+      "comment": "Regional context control in the carbon-tax model; not a focal mechanism and not significant.",
+      "suggested_correction": "Label as country/context control."
+    },
+    {
+      "raw_name_in_paper": "National electricity price (log)",
+      "status": "control_not_substantive",
+      "comment": "Country-level control in the carbon-tax model; not a focal mechanism and not significant.",
+      "suggested_correction": "Label as country/context control."
+    }
+  ],
+  "missing_tax_determinants": [],
+  "final_recommendation_summary": "Keep the paper in the strict tax corpus. The extraction is tax-specific and captures the carbon-tax support model, but standard demographic/political variables should be labeled as controls rather than substantive determinants."
+}

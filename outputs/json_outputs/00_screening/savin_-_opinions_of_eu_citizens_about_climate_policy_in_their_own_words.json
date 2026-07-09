@@ -1,0 +1,25 @@
+{
+  "paper_id": "savin_-_opinions_of_eu_citizens_about_climate_policy_in_their_own_words",
+  "title": "Opinions of EU citizens about climate policy in their own words",
+  "authors": "Ivan Savin; Jeroen van den Bergh",
+  "doi": null,
+  "publication_year": null,
+  "paper_type": "empirical_survey",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax",
+      "exact_term_used_in_paper": "Carbon taxation",
+      "context": "Open-ended support question; T11 topic on carbon taxation and associated respondent preferences.",
+      "page_or_section": "Pages 10-11, Table 1",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "One of 13 STM topics."
+    }
+  ],
+  "excluded_policy_mentions": [],
+  "inclusion_reason": "The paper analyzes survey responses to a support question and identifies a distinct carbon taxation topic, with demographic correlates of mentioning it.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

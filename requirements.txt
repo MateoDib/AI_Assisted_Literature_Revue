@@ -1,0 +1,6 @@
+openai
+pandas
+openpyxl
+pydantic
+tqdm
+python-dotenv

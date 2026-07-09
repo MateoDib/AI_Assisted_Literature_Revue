@@ -1,0 +1,38 @@
+{
+  "paper_id": "kallbekken_et_al_-_2013_-_determinants_of_public_support_for_transport_taxes",
+  "title": "Determinants of public support for transport taxes",
+  "authors": "Steffen Kallbekken, Jorge H. Garcia, Kristine Korneliussen",
+  "doi": "10.1016/j.tra.2013.10.004",
+  "publication_year": 2013,
+  "paper_type": "empirical_survey",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "fuel_tax",
+      "exact_term_used_in_paper": "fuel taxes (taxes on gasoline and diesel)",
+      "context": "Referendum-style survey questions on support for maintaining, reducing, or increasing fuel taxes.",
+      "page_or_section": "pp. 1, 4-5",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": null
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "other_non_tax_policy",
+      "exact_term_used_in_paper": "road pricing",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Transport pricing charge, not a fuel or carbon tax.",
+      "page_or_section": "pp. 1-9"
+    },
+    {
+      "excluded_policy_type": "other_non_tax_policy",
+      "exact_term_used_in_paper": "parking fees",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Parking charge, not a fuel or carbon tax.",
+      "page_or_section": "pp. 1-9"
+    }
+  ],
+  "inclusion_reason": "Directly analyzes public support for fuel taxes on gasoline and diesel, using referendum-style survey questions and determinants of acceptance.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

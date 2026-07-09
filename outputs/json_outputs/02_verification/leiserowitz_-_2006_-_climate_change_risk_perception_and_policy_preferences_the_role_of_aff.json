@@ -1,0 +1,121 @@
+{
+  "paper_id": "leiserowitz_-_2006_-_climate_change_risk_perception_and_policy_preferences_the_role_of_aff",
+  "overall_verdict": "minor_revision",
+  "should_remain_in_corpus": true,
+  "reason_for_exclusion_if_any": null,
+  "metadata_checks": {
+    "title_correct": true,
+    "doi_correct": true,
+    "year_correct": true,
+    "paper_type_correct": true,
+    "tax_scope_correct": true,
+    "comments": "Tax scope is acceptable: the paper directly measures support for a 60-cent gasoline tax and a tax-policy index that includes gasoline and business energy taxes."
+  },
+  "determinant_checks": [
+    {
+      "raw_name_in_paper": "Holistic negative affect",
+      "status": "supported",
+      "comment": "Supported; Table IV shows a positive association with tax-policy support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Naysayers",
+      "status": "supported",
+      "comment": "Supported; negative association with tax-policy support in Table IV.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Alarmists",
+      "status": "supported",
+      "comment": "Supported as a secondary result; positive in model 2, though not retained in the full model.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Climate change",
+      "status": "supported",
+      "comment": "Supported as a secondary image-category predictor; negative in model 2.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Politics",
+      "status": "supported",
+      "comment": "Supported as a secondary image-category predictor; negative in model 2.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Don’t know",
+      "status": "supported",
+      "comment": "Supported as a secondary image-category predictor; negative in model 2.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Egalitarianism",
+      "status": "supported",
+      "comment": "Supported; positive association with tax-policy support in Table IV.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Fatalism",
+      "status": "supported",
+      "comment": "Supported in model 3; negative association with tax-policy support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "If a person has the get-up-and-go to acquire wealth, that person should have the right to enjoy it. (I)",
+      "status": "supported",
+      "comment": "Supported; individualism is negatively associated with tax-policy support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Families need a strong authority figure. (H)",
+      "status": "supported",
+      "comment": "Supported in model 3; negative association with tax-policy support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Organizations need a strict line of command to be successful. (H)",
+      "status": "supported",
+      "comment": "Supported; negative association with tax-policy support in Table IV.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Political Ideology",
+      "status": "control_not_substantive",
+      "comment": "Relevant as a political control, not a substantive tax determinant.",
+      "suggested_correction": "Move to control variables."
+    },
+    {
+      "raw_name_in_paper": "Education",
+      "status": "control_not_substantive",
+      "comment": "Relevant as a demographic control, not a substantive tax determinant.",
+      "suggested_correction": "Move to control variables."
+    },
+    {
+      "raw_name_in_paper": "White",
+      "status": "control_not_substantive",
+      "comment": "Relevant as a demographic control, not a substantive tax determinant.",
+      "suggested_correction": "Move to control variables."
+    }
+  ],
+  "missing_tax_determinants": [
+    {
+      "raw_name_in_paper": "Female",
+      "suggested_direction": "+",
+      "tax_instrument_type": "unclear_tax_instrument",
+      "outcome_variable": "Tax policy preferences index",
+      "evidence_quote": "Female 0.10** -0.03",
+      "page_or_section": "pp. 17-18; Table IV",
+      "comment": "Omitted tax-policy control; significant in model 4."
+    },
+    {
+      "raw_name_in_paper": "Member of environmental groups",
+      "suggested_direction": "+",
+      "tax_instrument_type": "unclear_tax_instrument",
+      "outcome_variable": "Tax policy preferences index",
+      "evidence_quote": "Member of environmental groups 0.17*** 0.09",
+      "page_or_section": "pp. 17-18; Table IV",
+      "comment": "Omitted tax-policy control; significant in model 4."
+    }
+  ],
+  "final_recommendation_summary": "Keep the paper in the strict tax corpus. The extraction is broadly accurate, but it should flag political/demographic variables as controls and add the two omitted tax-policy controls: Female and Member of environmental groups."
+}

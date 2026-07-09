@@ -1,0 +1,55 @@
+{
+  "paper_metadata": {
+    "paper_id": "hornsey_et_al_-_2016_-_meta-analyses_of_the_determinants_and_outcomes_of_belief_in_climate",
+    "title": "Meta-analyses of the determinants and outcomes of belief in climate change",
+    "authors": "Matthew J. Hornsey, Emily A. Harris, Paul G. Bain, Kelly S. Fielding",
+    "doi": "10.1038/NCLIMATE2943",
+    "publication_year": 2016,
+    "publication_date": null,
+    "journal_or_source": "Nature Climate Change",
+    "paper_type": "meta_analysis",
+    "geographic_scope": "56 nations",
+    "empirical_scope_or_sample": "25 polls and 171 academic studies",
+    "tax_instruments_analyzed": [
+      "unclear_tax_instrument"
+    ],
+    "exact_tax_terms_used": [
+      "carbon tax",
+      "cap and trade",
+      "support for carbon tax/cap and trade",
+      "price on carbon"
+    ],
+    "carbon_tax_relevance_summary": "Meta-analysis includes a pooled outcome on support for carbon tax/cap-and-trade, making it relevant but not carbon-tax-only."
+  },
+  "determinants": [
+    {
+      "raw_name_in_paper": "belief in climate change",
+      "standardized_candidate_label": "belief in anthropogenic climate change",
+      "determinant_family": "climate_beliefs_risk_perception_and_concern",
+      "determinant_role": "substantive_mechanism",
+      "direction_on_tax_acceptability": "+",
+      "definition": "Belief that climate change is real and human-caused.",
+      "mechanism": "Accepting climate change raises perceived need for mitigation, so carbon pricing seems more justified and acceptable.",
+      "evidence_type": "meta_analytic_estimate",
+      "tax_instrument_type": "unclear_tax_instrument",
+      "exact_tax_policy_context": "Support for carbon tax/cap and trade.",
+      "outcome_variable": "Support for carbon tax/cap and trade",
+      "acceptability_dimension": "support",
+      "is_directly_about_carbon_or_fuel_tax": true,
+      "is_exclusively_about_ets_or_non_tax_policy": false,
+      "evidence_quote": "support for mitigation policies that place a price on carbon (carbon tax or cap and trade)",
+      "page_or_section": "p.9-10, Table 1",
+      "statistical_or_result_detail": "Pooled r = 0.207; k = 31; p < .005.",
+      "confidence": "medium",
+      "include_in_main_table": "yes_main_result",
+      "exclusion_reason_if_not_main": null,
+      "notes": "Outcome pooled with cap-and-trade; no tax-only estimate."
+    }
+  ],
+  "exclusions_or_uncertainties": [
+    {
+      "issue": "Pooled carbon-tax/ETS outcome",
+      "reason": "The paper reports support for carbon tax/cap and trade combined, not a separate carbon-tax coefficient."
+    }
+  ]
+}

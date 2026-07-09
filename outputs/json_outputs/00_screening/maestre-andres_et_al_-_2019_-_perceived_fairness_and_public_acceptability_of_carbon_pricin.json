@@ -1,0 +1,48 @@
+{
+  "paper_id": "maestre-andres_et_al_-_2019_-_perceived_fairness_and_public_acceptability_of_carbon_pricin",
+  "title": "Perceived fairness and public acceptability of carbon pricing: A review of the literature",
+  "authors": "Sara Maestre-Andrés, Stefan Drews, Jeroen van den Bergh",
+  "doi": "10.1080/14693062.2019.1639490",
+  "publication_year": 2019,
+  "paper_type": "systematic_review",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "exact_term_used_in_paper": "carbon taxes",
+      "context": "Reviews empirical studies on fairness perceptions, acceptability, and revenue recycling of carbon taxes.",
+      "page_or_section": "Abstract; Sections 1, 3-4",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Review article, not primary data."
+    },
+    {
+      "tax_instrument_type": "co2_tax",
+      "exact_term_used_in_paper": "CO2 tax",
+      "context": "Discusses acceptability and fairness findings for CO2 tax increases.",
+      "page_or_section": "Sections 3.1-3.2; Table 2",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Review synthesis."
+    },
+    {
+      "tax_instrument_type": "gasoline_tax",
+      "exact_term_used_in_paper": "gasoline tax increase",
+      "context": "Includes acceptance of a gasoline tax increase as climate policy.",
+      "page_or_section": "Section 3.2; cited study Kaplowitz and McCright (2015)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": null
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "ets_or_cap_and_trade",
+      "exact_term_used_in_paper": "cap and trade schemes",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Tradable permit scheme, not a tax instrument.",
+      "page_or_section": "Abstract; Sections 1, 2, 5"
+    }
+  ],
+  "inclusion_reason": "Systematic review of empirical studies on carbon-tax fairness, acceptability, and revenue recycling, explicitly covering CO2 tax and gasoline-tax support.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

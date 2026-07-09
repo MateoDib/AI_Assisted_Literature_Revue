@@ -1,0 +1,38 @@
+{
+  "paper_id": "fabre_et_al_-_2025_-_majority_support_for_global_redistributive_and_climate_policies",
+  "title": "Majority support for global redistributive and climate policies",
+  "authors": "Adrien Fabre; Thomas Douenne; Linus Mattauch",
+  "doi": "10.1038/s41562-025-02175-9",
+  "publication_year": 2025,
+  "paper_type": "survey_experiment",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "exact_term_used_in_paper": "Global tax on GHG financing a global basic income",
+      "context": "Respondents rate/choose support for a global GHG tax financing a global basic income; support reported and compared to the tradable-quota (cap-and-trade) alternative.",
+      "page_or_section": "Results – Global support (Fig. 2)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Explicit basic-income revenue use/distributive effects."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "ets_or_cap_and_trade",
+      "exact_term_used_in_paper": "Global carbon budget (+2 °C) divided in tradable country shares",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "A tradable carbon budget/quota implemented via emission rights, not an explicit tax instrument.",
+      "page_or_section": "Results – Global support (Fig. 2)"
+    },
+    {
+      "excluded_policy_type": "ets_or_cap_and_trade",
+      "exact_term_used_in_paper": "a system based upon tradable permits for carbon emissions (Global Climate Scheme, GCS)",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Described as auctioned emission permits rather than a tax rate.",
+      "page_or_section": "Introduction / description of the GCS"
+    }
+  ],
+  "inclusion_reason": "Includes survey and experimental evidence on stated public support for a carbon tax: “Global tax on GHG financing a global basic income” (with redistribution), with comparisons to the permit/quota alternative.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

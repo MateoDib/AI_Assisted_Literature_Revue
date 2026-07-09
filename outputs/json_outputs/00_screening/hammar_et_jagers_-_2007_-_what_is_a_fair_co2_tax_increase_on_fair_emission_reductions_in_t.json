@@ -1,0 +1,33 @@
+{
+  "paper_id": "hammar_et_jagers_-_2007_-_what_is_a_fair_co2_tax_increase_on_fair_emission_reductions_in_t",
+  "title": "What is a fair CO2 tax increase? On fair emission reductions in the transport sector",
+  "authors": "Henrik Hammar, Sverker C. Jagers",
+  "doi": "10.1016/j.ecolecon.2006.03.004",
+  "publication_year": 2007,
+  "paper_type": "empirical_survey",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "co2_tax",
+      "exact_term_used_in_paper": "CO2 tax on gasoline and diesel",
+      "context": "Support for increases in Sweden's CO2 tax on gasoline and diesel.",
+      "page_or_section": "Abstract; Introduction",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": null
+    },
+    {
+      "tax_instrument_type": "co2_tax",
+      "exact_term_used_in_paper": "increased CO2 tax",
+      "context": "Respondents choose whether to vote in favour of an increased CO2 tax.",
+      "page_or_section": "Section 3.4; Table 2",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": null
+    }
+  ],
+  "excluded_policy_mentions": [],
+  "inclusion_reason": "Direct survey analysis of support for increasing Sweden's CO2 tax on gasoline and diesel, with fairness preferences as explanatory determinants.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

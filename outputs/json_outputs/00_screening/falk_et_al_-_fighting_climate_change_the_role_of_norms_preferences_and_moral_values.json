@@ -1,0 +1,32 @@
+{
+  "paper_id": "falk_et_al_-_fighting_climate_change_the_role_of_norms_preferences_and_moral_values",
+  "title": "Fighting Climate Change: the Role of Norms, Preferences, and Moral Values",
+  "authors": "Armin Falk, Peter Andre, Teodora Boneva, and Felix Chopra",
+  "doi": null,
+  "publication_year": 2021,
+  "paper_type": "survey_experiment",
+  "screening_decision": "exclude_no_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": false,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "exact_term_used_in_paper": "require fossil fuel companies to pay a carbon tax and use the money to reduce other taxes (such as income tax) by an equal amount",
+      "context": "One item in the climate policy support index; support is not analyzed separately from other policies.",
+      "page_or_section": "Section 2.5; p. 51",
+      "is_direct_acceptability_or_support_analysis": false,
+      "notes": "Aggregate index only."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "general_climate_policy_support",
+      "exact_term_used_in_paper": "policy support index",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Carbon tax is only one item within a broader climate policy index; no separate tax-specific analysis is reported.",
+      "page_or_section": "Section 2.5; Table 4; p. 51"
+    }
+  ],
+  "inclusion_reason": "Carbon-tax support is mentioned only as one component of a broader policy-support index, not as a separate tax-specific outcome.",
+  "exclusion_reason": "No direct carbon/fuel-tax acceptability analysis; the tax item is bundled into a general climate-policy support index.",
+  "confidence": "high"
+}

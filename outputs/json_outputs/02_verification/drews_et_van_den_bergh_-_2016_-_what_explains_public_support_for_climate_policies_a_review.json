@@ -1,0 +1,124 @@
+{
+  "paper_id": "drews_et_van_den_bergh_-_2016_-_what_explains_public_support_for_climate_policies_a_review",
+  "overall_verdict": "minor_revision",
+  "should_remain_in_corpus": true,
+  "reason_for_exclusion_if_any": null,
+  "metadata_checks": {
+    "title_correct": true,
+    "doi_correct": true,
+    "year_correct": true,
+    "paper_type_correct": true,
+    "tax_scope_correct": true,
+    "comments": "Title, DOI, year, and review type match. The paper is broad climate-policy review, but it includes multiple direct carbon/fuel-tax acceptability studies, so tax scope is correct."
+  },
+  "determinant_checks": [
+    {
+      "raw_name_in_paper": "people approved ... subsidies ... or expansion of public transportation. To a significantly lesser degree they supported two types of CO2 taxation",
+      "status": "supported",
+      "comment": "Directly supported; CO2 taxation is less accepted than subsidies/public transport in the Swiss comparison.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "were more likely to support a fuel tax if they believed the tax was going to reduce driving and exert a positive effect on climate change",
+      "status": "supported",
+      "comment": "Direct fuel-tax result; support rises when the tax is believed to cut driving and help climate.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Perceived effectiveness best predicted people’s policy choices... more effective... than a carbon tax",
+      "status": "not_tax_specific",
+      "comment": "Evidence is about general policy choice across environmental/carbon/geoengineering policies, not carbon-tax support specifically.",
+      "suggested_correction": "Remove or rephrase as general policy-effectiveness perception, not a tax-specific determinant."
+    },
+    {
+      "raw_name_in_paper": "people may overestimate the costs of taxes and underestimate the ‘hidden’ costs of alternative policies",
+      "status": "not_tax_specific",
+      "comment": "This is a general cost-misperception remark; the review does not test a tax-specific support effect here.",
+      "suggested_correction": "Remove or rephrase as general cost-perception context, not a direct carbon/fuel-tax determinant."
+    },
+    {
+      "raw_name_in_paper": "distribution of costs is progressive... richer members... pay a larger share and potential revenues are redistributed",
+      "status": "supported",
+      "comment": "Supported, though framed broadly as domestic climate-policy burden-sharing and redistribution.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "support for fairness principles ‘equality’ and ‘need’... strongly positive impact on tax support",
+      "status": "supported",
+      "comment": "Direct fuel-tax fairness result; equality and need predict higher tax support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "WTP... decrease if general taxpayers are assigned great responsibility... increase if industry and energy users are targeted",
+      "status": "supported",
+      "comment": "Directly references taxpayers versus industry/energy users in WTP for mitigation; sufficiently tax-relevant.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "acceptability of a carbon tax can vary between 68% and 48% depending on whether revenues are earmarked... or go directly to the general tax budget",
+      "status": "supported",
+      "comment": "Direct carbon-tax acceptability result; earmarking raises support relative to the general budget.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Revenue recycling... reducing VAT or income tax — increased policy support",
+      "status": "supported",
+      "comment": "Direct gasoline-tax result; recycling revenues to VAT/income-tax cuts increases support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "support a rise in fossil fuel taxes if revenues are earmarked... whereas without earmarking... prefers a decrease",
+      "status": "supported",
+      "comment": "Directly supported; earmarking fossil-fuel-tax revenues for environmental purposes increases support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "policy support requires trust in government and politicians, as exemplified by the case of carbon taxation in Sweden and Norway",
+      "status": "supported",
+      "comment": "Directly supported; trust in government/politicians is linked to carbon-tax support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "trust in environmental scientists and environmental organizations... trust in industry negatively associated with greater policy support",
+      "status": "not_tax_specific",
+      "comment": "Policy support is general, not clearly tied to a carbon/fuel-tax outcome in the cited study.",
+      "suggested_correction": "Keep only if linked to a tax-specific result; otherwise exclude."
+    },
+    {
+      "raw_name_in_paper": "support for a carbon tax falls when people receive information that only a minority of other citizens support the proposed tax",
+      "status": "supported",
+      "comment": "Directly supported; perceived majority support increases carbon-tax acceptability.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "a majority of participants favoured a carbon tax after deliberation",
+      "status": "supported",
+      "comment": "Directly supported; deliberation led a majority to favor a carbon tax.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Republicans preferred to pay more... labelled as a carbon offset than... labelled as a carbon tax (no difference for Democrats)",
+      "status": "supported",
+      "comment": "Directly supported; the 'carbon tax' label reduces WTP for Republicans versus 'carbon offset'.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "improved public transport can reduce some public opposition to gasoline (petrol) taxes",
+      "status": "supported",
+      "comment": "Direct gasoline-tax result; public-transport alternatives reduce opposition.",
+      "suggested_correction": null
+    }
+  ],
+  "missing_tax_determinants": [
+    {
+      "raw_name_in_paper": "Higher explicit policy costs reduce support",
+      "suggested_direction": "-",
+      "tax_instrument_type": "unclear_tax_instrument",
+      "outcome_variable": "Support for climate-policy taxes when explicit monthly costs are shown",
+      "evidence_quote": "when different levels of monthly financial costs of a policy are explicitly described, public support for domestic as well as global climate policy goes down for higher levels of costs",
+      "page_or_section": "3.3. Perceived costs of policy",
+      "comment": "The review states that explicit monthly costs lower support, but the extraction omitted this direct cost-level determinant."
+    }
+  ],
+  "final_recommendation_summary": "Keep the paper in the strict tax corpus. Most extracted determinants are supported, but three entries are not tax-specific enough, and the extraction misses the review's explicit higher-costs-negative-support determinant."
+}

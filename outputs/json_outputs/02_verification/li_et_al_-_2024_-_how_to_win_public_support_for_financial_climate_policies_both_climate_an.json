@@ -1,0 +1,60 @@
+{
+  "paper_id": "li_et_al_-_2024_-_how_to_win_public_support_for_financial_climate_policies_both_climate_an",
+  "overall_verdict": "minor_revision",
+  "should_remain_in_corpus": true,
+  "reason_for_exclusion_if_any": null,
+  "metadata_checks": {
+    "title_correct": true,
+    "doi_correct": true,
+    "year_correct": true,
+    "paper_type_correct": true,
+    "tax_scope_correct": true,
+    "comments": null
+  },
+  "determinant_checks": [
+    {
+      "raw_name_in_paper": "Climate anxietyT1",
+      "status": "supported",
+      "comment": "CT support path is indirect at T1 but substantively linked through perceived climate benefit.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Climate anxietyT2",
+      "status": "supported",
+      "comment": "Contemporaneous climate anxiety positively predicts CT support and perceived climate benefit.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Economic anticipationT1",
+      "status": "supported",
+      "comment": "T1 effect on CT support is indirect via perceived personal benefit; still a valid predictor.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Economic anticipationT2",
+      "status": "supported",
+      "comment": "Contemporaneous economic anticipation directly and indirectly increases CT support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Perceived climate benefit",
+      "status": "supported",
+      "comment": "Direct CT-support mechanism; strong positive association in the carbon-tax model.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Perceived personal benefit",
+      "status": "supported",
+      "comment": "Direct CT-support mechanism; positive association with carbon-tax support.",
+      "suggested_correction": null
+    },
+    {
+      "raw_name_in_paper": "Age",
+      "status": "control_not_substantive",
+      "comment": "Significant demographic control, not a substantive determinant of carbon-tax support.",
+      "suggested_correction": "Move to controls; exclude from determinant list."
+    }
+  ],
+  "missing_tax_determinants": [],
+  "final_recommendation_summary": "Keep the paper in the strict carbon-tax corpus. The CT-support determinants are correctly extracted, but age should be reclassified as a demographic control rather than a determinant."
+}

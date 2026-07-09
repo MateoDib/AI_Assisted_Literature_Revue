@@ -1,0 +1,48 @@
+{
+  "paper_id": "douenne_et_fabre_-_2022_-_yellow_vests_pessimistic_beliefs_and_carbon_tax_aversion",
+  "title": "Yellow Vests, Pessimistic Beliefs, and Carbon Tax Aversion",
+  "authors": "Thomas Douenne; Adrien Fabre",
+  "doi": null,
+  "publication_year": 2022,
+  "paper_type": "survey_experiment",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "exact_term_used_in_paper": "tax & dividend policy",
+      "context": "Respondents are asked to approve/disapprove a carbon tax increase whose revenues are redistributed uniformly to each adult.",
+      "page_or_section": "Abstract (p.1); Section 2.2.2 (Tax & dividend)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Uses “Would you approve of this reform?”; measures acceptance/approval."
+    },
+    {
+      "tax_instrument_type": "carbon_tax_with_revenue_recycling",
+      "exact_term_used_in_paper": "tax & targeted dividend",
+      "context": "Carbon-tax reform with dividend paid only to adults below income thresholds; used to estimate causal impact of “winning” beliefs on acceptance.",
+      "page_or_section": "Section 2.2.2 (Tax & targeted dividend); Section 5.1",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Causal estimates via fuzzy RDD/IV."
+    },
+    {
+      "tax_instrument_type": "ticpe_like_excise_fuel_tax",
+      "exact_term_used_in_paper": "sectoral tax & dividend",
+      "context": "Random housing- or transport-sector excise-tax increase financing a lump-sum transfer; elicits perceived win/lose and elasticities.",
+      "page_or_section": "Section 2.2.2 (Sectoral tax & dividend)",
+      "is_direct_acceptability_or_support_analysis": false,
+      "notes": "Primarily belief elicitation; approval analyzed for the full tax & dividend."
+    }
+  ],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "ets_or_cap_and_trade",
+      "exact_term_used_in_paper": "EU-ETS",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "EU ETS is a permit-trading scheme (emissions trading); not a carbon/fuel excise tax.",
+      "page_or_section": "Section 2.2.2 (note 12, p.12)"
+    }
+  ],
+  "inclusion_reason": "Directly measures French public approval/opposition to a carbon tax with dividend (uniform and targeted) and analyzes determinants via survey experiments/information and belief-based causal effects.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

@@ -1,0 +1,33 @@
+{
+  "paper_id": "bergquist_et_al_-_2022_-_meta-analyses_of_fifteen_determinants_of_public_opinion_about_cli",
+  "title": "Meta-analyses of fifteen determinants of public opinion about climate change taxes and laws",
+  "authors": "Magnus Bergquist; Andreas Nilsson; Niklas Harring; Sverker C. Jagers",
+  "doi": "https://doi.org/10.1038/s41558-022-01297-6",
+  "publication_year": 2022,
+  "paper_type": "meta_analysis",
+  "screening_decision": "include_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": true,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [
+    {
+      "tax_instrument_type": "fuel_tax",
+      "exact_term_used_in_paper": "fuel taxation",
+      "context": "Example of climate-change taxes/laws studied for determinants of public opinion.",
+      "page_or_section": "Introduction (page 1)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": null
+    },
+    {
+      "tax_instrument_type": "carbon_tax",
+      "exact_term_used_in_paper": "carbon taxes",
+      "context": "Scope: include taxes and laws such as carbon taxes (excluding broader non-tax climate policies).",
+      "page_or_section": "Scope/Methods introduction (page 1)",
+      "is_direct_acceptability_or_support_analysis": true,
+      "notes": "Meta-analyzes determinants of acceptance/support for these tax instruments."
+    }
+  ],
+  "excluded_policy_mentions": [],
+  "inclusion_reason": "Meta-analysis of determinants of public opinion toward climate change taxes and laws, explicitly including carbon taxes and fuel taxation, and directly estimating correlations with public acceptability/support.",
+  "exclusion_reason": null,
+  "confidence": "high"
+}

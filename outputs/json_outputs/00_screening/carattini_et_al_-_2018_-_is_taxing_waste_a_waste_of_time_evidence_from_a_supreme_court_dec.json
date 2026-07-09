@@ -1,0 +1,23 @@
+{
+  "paper_id": "carattini_et_al_-_2018_-_is_taxing_waste_a_waste_of_time_evidence_from_a_supreme_court_dec",
+  "title": "Is Taxing Waste a Waste of Time? Evidence from a Supreme Court Decision",
+  "authors": "Stefano Carattini; Andrea Baranzini; Rafael Lalive",
+  "doi": "10.1016/j.ecolecon.2018.02.001",
+  "publication_year": 2018,
+  "paper_type": "quasi_experimental_policy_evaluation",
+  "screening_decision": "exclude_no_direct_carbon_or_fuel_tax",
+  "contains_direct_carbon_or_fuel_tax": false,
+  "contains_tax_acceptability_or_support_analysis": true,
+  "tax_mentions": [],
+  "excluded_policy_mentions": [
+    {
+      "excluded_policy_type": "environmental_policy_general",
+      "exact_term_used_in_paper": "pricing garbage by the bag (PGB) / pay-per-bag fee",
+      "reason_it_is_not_a_carbon_or_fuel_tax": "Unit pricing on household waste volume (PGB), not a tax on carbon emissions or fossil/transport fuels.",
+      "page_or_section": "Abstract; Sections 1–6"
+    }
+  ],
+  "inclusion_reason": "The paper measures public perceptions and voting intentions for a waste-management pay-per-bag tax (PGB), with no direct analysis of carbon or fuel tax acceptability.",
+  "exclusion_reason": "Acceptability/support is evaluated only for pricing garbage by the bag. Mentions of carbon taxes are purely background; no carbon/fuel tax instrument is empirically assessed.",
+  "confidence": "high"
+}

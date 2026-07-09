@@ -1,0 +1,52 @@
+{
+  "paper_metadata": {
+    "paper_id": "andre_et_al_-_2024_-_globally_representative_evidence_on_the_actual_and_perceived_support",
+    "title": "Globally representative evidence on the actual and perceived support for climate action",
+    "authors": "Peter Andre; Teodora Boneva; Felix Chopra; Armin Falk",
+    "doi": "10.1038/s41558-024-01925-3",
+    "publication_year": 2024,
+    "publication_date": "2024-02-09",
+    "journal_or_source": "Nature Climate Change",
+    "paper_type": "empirical_survey",
+    "geographic_scope": "Global (125 countries); carbon-tax validation evidence from United States only",
+    "empirical_scope_or_sample": "129,902 individuals aged 15+ from 125 countries in Gallup World Poll 2021/2022; separate US online survey of ~2,000 respondents used for validation analyses.",
+    "tax_instruments_analyzed": [
+      "carbon_tax"
+    ],
+    "exact_tax_terms_used": [
+      "a carbon tax on fossil fuels"
+    ],
+    "carbon_tax_relevance_summary": "The main global survey measures general demand for more climate action. In a separate representative US online survey, this general demand is shown to correlate strongly with support for specific policies, including a carbon tax on fossil fuels."
+  },
+  "determinants": [
+    {
+      "raw_name_in_paper": "demand for more political action",
+      "standardized_candidate_label": "General demand for more political action on climate",
+      "determinant_family": "climate_beliefs_risk_perception_and_concern",
+      "determinant_role": "substantive_mechanism",
+      "direction_on_tax_acceptability": "+",
+      "definition": "Binary indicator that respondent thinks the national government should do more to fight global warming.",
+      "mechanism": "Reflects stronger concern about climate change and desire for ambitious policy, which translates into higher stated support for adopting a carbon tax on fossil fuels.",
+      "evidence_type": "statistical_association",
+      "tax_instrument_type": "carbon_tax",
+      "exact_tax_policy_context": "US online validation survey (Andre et al. 2022); support for \"a carbon tax on fossil fuels\" measured on a 4-point Likert scale.",
+      "outcome_variable": "Stated support for a carbon tax on fossil fuels (specific climate policy item).",
+      "acceptability_dimension": "support",
+      "is_directly_about_carbon_or_fuel_tax": true,
+      "is_exclusively_about_ets_or_non_tax_policy": false,
+      "evidence_quote": "\"the general demand for more political action is strongly correlated with demand for specific climate policies, such as a carbon tax on fossil fuels\" (ρ between 0.49 and 0.59, all P<0.001).",
+      "page_or_section": "Main text p.254; Methods – Validation; Supplementary Table 3",
+      "statistical_or_result_detail": "Correlation between general demand for more political action and support for specific policies (incl. carbon tax) ρ=0.49–0.59; all P<0.001; N=1,996; US sample.",
+      "confidence": "medium",
+      "include_in_main_table": "yes_secondary_result",
+      "exclusion_reason_if_not_main": null,
+      "notes": "Carbon-tax item appears only in separate US validation survey, not in global Gallup sample; exact ρ for carbon-tax item not reported separately."
+    }
+  ],
+  "exclusions_or_uncertainties": [
+    {
+      "issue": "Carbon-tax evidence limited to US validation sample",
+      "reason": "The main globally representative survey does not include a carbon-tax item; only the US online survey (Andre et al. 2022) measures support for \"a carbon tax on fossil fuels\" and reports correlations with general demand for more political action."
+    }
+  ]
+}
