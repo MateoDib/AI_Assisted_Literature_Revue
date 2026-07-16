@@ -3,17 +3,45 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Environment variables, API keys, and local secrets
 .env
 .env.*
-
-# OpenAI / API keys / local secrets
-openai_file_cache.json
 *.key
 *.pem
+*.token
+secrets.*
 
-# Logs and debug files
+# Local literature, restricted documents, and participant data
+private_literature/
+private_data/
+private_workbooks/
+data/
+*.pdf
+*.docx
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.sav
+*.dta
+*.rds
+*.RData
+*.sqlite
+*.sqlite3
+*.db
+*.parquet
+*.feather
+*.jsonl
+
+# OpenAI / API caches
+openai_file_cache.json
+.openai_cache/
+
+# Generated outputs that may contain excerpts or unreviewed model output
+outputs/
+private_outputs/
 logs/
-outputs/json_outputs/logs/
 *_fatal_error.json
 debug_raw_response_*.json
 *_validation_error.json
@@ -26,5 +54,6 @@ debug_raw_response_*.json
 # Jupyter / local cache
 .ipynb_checkpoints/
 
-# Optional: ignore temporary Excel files
+# Temporary Office files
 ~$*.xlsx
+~$*.docx
