@@ -1,5 +1,11 @@
 # AI-Assisted Literature Review Pipeline for Carbon and Fuel Tax Acceptability
 
+This repository provides the public code and documentation used in the open-science release accompanying the paper **"Using AI-led semi-structured interviews to explore the connection between Carbon Tax narratives and climate anxiety"**, co-authored by **Matéo Dib, Thibaut Arpinon, and Bérangère Legendre**.
+
+The repository is designed for transparency. It documents the AI-assisted literature review workflow used to identify, screen, extract, verify, and harmonize evidence on carbon-tax and fuel-tax acceptability. It provides the reusable code, prompts, schemas, and methodological documentation needed to inspect and adapt the pipeline.
+
+The repository does **not** publish interview databases, participant-level data, restricted coding material, copyrighted PDFs, API keys, model caches, or raw private outputs. Any local files that may contain sensitive participant information, copyrighted source material, or unreviewed AI-generated excerpts must remain outside the public repository.
+
 ## Overview
 
 This repository contains an AI-assisted literature review pipeline designed to identify, screen, extract, verify, and harmonize evidence on the determinants of public acceptability, support, opposition, preferences, vote choice, willingness to pay, and attitudes toward carbon-tax and fuel-tax instruments.
@@ -7,8 +13,6 @@ This repository contains an AI-assisted literature review pipeline designed to i
 The pipeline is deliberately strict in scope. It retains only academic papers that directly analyze public responses to a carbon tax, CO2 tax, fossil-fuel tax, gasoline tax, diesel tax, fuel excise tax, transport fuel tax, TICPE-like fiscal instrument, progressive carbon tax, or carbon tax combined with revenue recycling. Papers that discuss carbon pricing only in general terms, or that focus exclusively on emissions trading systems, cap-and-trade mechanisms, subsidies, standards, green spending, pro-environmental behavior, or general climate-policy support are excluded unless they also provide tax-specific evidence.
 
 The objective is to construct a transparent, auditable, and reproducible evidence base for a literature review on the political economy and public acceptability of carbon and fuel taxation.
-
----
 
 ## Research Scope
 
@@ -57,15 +61,15 @@ The pipeline excludes papers that analyze only:
 
 If a paper studies both carbon taxes and other climate-policy instruments, the paper may be included, but the extraction stage retains only the tax-specific evidence.
 
----
-
 ## Pipeline Architecture
 
 The pipeline is structured into four main stages.
 
 ### Step 0: PDF identification and upload
 
-Academic PDFs are stored locally in the literature directory and uploaded to the OpenAI API when needed. A local file cache avoids re-uploading the same PDF across runs. Files are identified using their SHA-256 hash.
+Academic PDFs are stored locally in a private literature directory and uploaded to the OpenAI API when needed. A local file cache avoids re-uploading the same PDF across runs. Files are identified using their SHA-256 hash.
+
+PDFs are not redistributed in this repository. Researchers must use their own lawfully accessible copies of the papers.
 
 ### Step 1: Screening
 
@@ -130,55 +134,46 @@ After all papers have been processed, the pipeline reloads all completed JSON fi
 
 The pipeline then uses a final harmonization step to group semantically similar determinant labels while preserving relevant conceptual distinctions, such as the difference between perceived effectiveness, trust, fairness, economic self-interest, ideology, and revenue recycling.
 
----
-
 ## Repository Structure
 
-A recommended repository structure is:
+A recommended local structure is:
 
 ```text
 AI_Assisted_Literature_Revue/
-│
-├── code/
-│   └── ai_literature_review_pipeline.py
-│
-├── data/
-│   └── papers/
-│       └── *.pdf
-│
-├── outputs/
-│   ├── json_outputs/
-│   │   ├── 00_screening/
-│   │   ├── 01_extraction/
-│   │   ├── 02_verification/
-│   │   ├── 03_final/
-│   │   └── 99_status/
-│   │
-│   └── tables/
-│       ├── screening_decisions.csv
-│       ├── screening_decisions.xlsx
-│       ├── table_1_paper_level_tax_only.csv
-│       ├── table_1_paper_level_tax_only.xlsx
-│       ├── determinants_long_format_tax_only.csv
-│       ├── determinants_long_format_tax_only.xlsx
-│       ├── verification_audit_report.csv
-│       ├── verification_audit_report.xlsx
-│       ├── pipeline_status.csv
-│       ├── pipeline_status.xlsx
-│       ├── harmonization_dictionary_tax_only.csv
-│       ├── harmonization_dictionary_tax_only.xlsx
-│       ├── determinants_long_format_tax_only_harmonized.csv
-│       ├── determinants_long_format_tax_only_harmonized.xlsx
-│       ├── table_2_determinant_level_tax_only.csv
-│       └── table_2_determinant_level_tax_only.xlsx
-│
-├── requirements.txt
-├── .gitignore
-├── .gitattributes
-└── README.md
+|
+|-- code/
+|   `-- ai_literature_review_pipeline.py
+|
+|-- private_literature/              # local only, ignored by Git
+|   `-- *.pdf
+|
+|-- outputs/                         # generated locally, review before sharing
+|   |-- json_outputs/
+|   |   |-- 00_screening/
+|   |   |-- 01_extraction/
+|   |   |-- 02_verification/
+|   |   |-- 03_final/
+|   |   `-- 99_status/
+|   `-- tables/
+|       |-- screening_decisions.csv
+|       |-- table_1_paper_level_tax_only.csv
+|       |-- determinants_long_format_tax_only.csv
+|       |-- verification_audit_report.csv
+|       |-- pipeline_status.csv
+|       |-- harmonization_dictionary_tax_only.csv
+|       |-- determinants_long_format_tax_only_harmonized.csv
+|       `-- table_2_determinant_level_tax_only.csv
+|
+|-- requirements.txt
+|-- .gitignore
+|-- .gitattributes
+|-- LICENSE
+|-- CITATION.cff
+|-- CITATION_POLICY.md
+`-- README.md
 ```
 
----
+The public repository is intended to contain code and documentation. Local literature files, raw model outputs, and data exports should be kept out of version control unless they have been explicitly reviewed for copyright, confidentiality, and participant-protection constraints.
 
 ## Installation
 
@@ -222,8 +217,6 @@ tqdm
 python-dotenv
 ```
 
----
-
 ## Environment Variables
 
 The pipeline requires an OpenAI API key. It should be provided as an environment variable rather than written directly in the code.
@@ -245,13 +238,11 @@ import os
 from pathlib import Path
 
 LITERATURE_DIR = Path(
-    os.getenv("LITERATURE_DIR", Path(__file__).resolve().parents[1] / "data" / "papers")
+    os.getenv("LITERATURE_DIR", Path(__file__).resolve().parents[1] / "private_literature")
 )
 ```
 
 This allows the pipeline to run either from the repository folder or from an external local literature directory.
-
----
 
 ## Running the Pipeline
 
@@ -273,8 +264,6 @@ The script will:
 8. harmonize determinant labels;
 9. export CSV and Excel tables.
 
----
-
 ## Parallel Processing
 
 The pipeline supports parallel processing at the paper level. Each paper is processed sequentially internally, but several papers can be processed at the same time.
@@ -288,8 +277,6 @@ MAX_CONCURRENT_API_CALLS = 8
 ```
 
 The recommended starting point is `MAX_WORKERS = 6` or `MAX_WORKERS = 8`, depending on API rate limits and document size.
-
----
 
 ## Robustness and Resume Logic
 
@@ -308,8 +295,6 @@ It can handle:
 - output truncation.
 
 If an output JSON file is corrupt, it is moved aside rather than silently overwritten. If a response appears truncated, the pipeline retries the call with a larger output-token budget.
-
----
 
 ## Main Output Tables
 
@@ -401,8 +386,6 @@ Main fields include:
 - evidence types;
 - outcome variables.
 
----
-
 ## Determinant Families
 
 The pipeline classifies determinants into the following families:
@@ -426,8 +409,6 @@ The pipeline classifies determinants into the following families:
 - unclear.
 
 These families are intended to support systematic synthesis while preserving conceptual distinctions relevant to environmental economics and political economy.
-
----
 
 ## Methodological Notes
 
@@ -453,7 +434,21 @@ For publication-quality use, the researcher should manually inspect:
 - evidence quotes and page references;
 - the direction assigned to each determinant.
 
----
+## Data and Document Protection
+
+Do not commit:
+
+- interview transcripts or participant responses;
+- restricted research databases;
+- non-anonymized or participant-level files;
+- local literature PDFs;
+- copyrighted papers;
+- OpenAI file caches;
+- API keys or `.env` files;
+- raw JSON outputs that contain long excerpts, private annotations, or unreviewed model output;
+- spreadsheet, database, or archive exports that have not been explicitly cleared for public release.
+
+The `.gitignore` file is configured as a guardrail for common sensitive file types and local output folders. This is not a substitute for manual review before publication.
 
 ## Reproducibility
 
@@ -478,15 +473,19 @@ Nevertheless, because the pipeline relies on large language models, exact output
 - the raw and harmonized outputs;
 - any manual corrections made after automated extraction.
 
----
+## Citation
 
-## Suggested Citation
+If you reuse, adapt, redistribute, teach with, or build on this pipeline, please cite the repository and the associated paper once available.
 
-```text
-Dib, M. (2026). AI-Assisted Literature Review Pipeline for Carbon and Fuel Tax Acceptability. GitHub repository.
-```
+Required repository citation:
 
----
+> Dib, M. (2026). *AI-Assisted Literature Review Pipeline for Carbon and Fuel Tax Acceptability*. GitHub repository.
+
+Citation metadata are provided in `CITATION.cff`. Additional reuse expectations are described in `CITATION_POLICY.md`.
+
+## License
+
+This repository is released under the MIT License. See `LICENSE`.
 
 ## Disclaimer
 
