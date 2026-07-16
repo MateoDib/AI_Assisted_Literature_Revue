@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you reuse, adapt, redistribute, teach with, or cite this pipeline, please cite both the repository and the associated paper once available. Recommended repository citation: Dib, M. (2026). AI-Assisted Literature Review Pipeline for Carbon and Fuel Tax Acceptability. GitHub repository."
+title: "AI-Assisted Literature Review Pipeline for Carbon and Fuel Tax Acceptability"
+authors:
+  - family-names: "Dib"
+    given-names: "Matéo"
+date-released: "2026-07-16"
+version: "0.1.0"
+license: "MIT"
+repository-code: "https://github.com/MateoDib/AI_Assisted_Literature_Revue"
+abstract: "Open-science code and documentation for an AI-assisted literature review pipeline on public acceptability of carbon-tax and fuel-tax instruments, released without restricted participant data, copyrighted PDFs, API keys, or private model outputs."
+preferred-citation:
+  type: article
+  title: "Using AI-led semi-structured interviews to explore the connection between Carbon Tax narratives and climate anxiety"
+  authors:
+    - family-names: "Dib"
+      given-names: "Matéo"
+    - family-names: "Arpinon"
+      given-names: "Thibaut"
+    - family-names: "Legendre"
+      given-names: "Bérangère"
